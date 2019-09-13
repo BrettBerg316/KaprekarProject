@@ -28,8 +28,9 @@ public class KaprekarUtils {
 			return false;
 		} 
 		
+		int i;
 		//we use a long to accommodate larger squares
-		long square = n * n;
+		long square = n * (long) n;
 		int numDigits = (int) Math.log10(n) + 1;
 		long modulus = 1;
 		long first, second;
